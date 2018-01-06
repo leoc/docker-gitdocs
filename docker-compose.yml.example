@@ -9,4 +9,4 @@ gitdocs:
     # GIT_REMOTE_USERNAME: arthur
   volumes:
     - /path/to/my/repo:/repos/repo
-    - /home/user/.ssh/id_rsa:/root/.ssh/id_rsa
+    - ./id_rsa:/root/.ssh/id_rsa
